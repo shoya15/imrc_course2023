@@ -1,4 +1,4 @@
-//　4_if.cppのプログラムをif文を２つ使って実装する(maxメソッドは使わないで下さい)
+//　3_if-elseのhomework.cppのプログラムをif文を２つ使って実装する(maxメソッドは使わないで下さい)
 #include <iostream>
 using namespace std;
 
