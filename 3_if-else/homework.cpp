@@ -10,7 +10,7 @@ int main()
     int m = n % 10;
     int ans = q;
     if(q == 7) ans += m + 1;
-    if(7 <= m) ans += 1;
+    if(7 <= m && n != 77) ans += 1;
     if(80 <= n) ans += 9;
     cout << ans << endl;
 }
