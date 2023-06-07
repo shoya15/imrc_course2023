@@ -1,4 +1,4 @@
-// 解を出力するプログラム
+// 解を出力するプログラム(必要に応じてヒントを与える)
 #include <iostream>
 #include <cmath>
 
