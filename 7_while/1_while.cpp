@@ -11,9 +11,9 @@ int main(){
         srand(time(NULL));
         int lucky=rand()%10;
         cout<<"本日のラッキーナンバーは"<<lucky<<"です。\n";
-        cout<<"続けますか? Yes->0 / No->1\n";
+        cout<<"続けますか? Yes->1(=true) / No->0(=false)\n";
         cin>>check;
-    } while (check==0);
+    } while (check);
 
     cout<<"end\n";
 }
